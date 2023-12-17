@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profile p {
+  font-size: 1.125rem;
+  max-width: 400px;
+}
+
+.profile .location {
+  font-size: 1rem;
+}
+
+p,
+.social-links a {
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  gap: 1em;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 2em;
+}
